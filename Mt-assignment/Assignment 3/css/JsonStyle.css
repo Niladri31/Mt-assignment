@@ -1,0 +1,34 @@
+th, td, p, input {
+    font:14px Verdana;
+}
+table, th, td 
+{
+    border: solid 2px black;
+    margin-top:50px;
+    text-align: center;
+    margin-left:120px;
+    padding:50px;
+    background-color: aliceblue;
+}
+th {
+    font-weight:bold;
+    font-size: 20px;
+}
+body{
+    background-color: lightcyan;
+}
+.Input {
+    width: 15%;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid black;
+    margin-bottom: 12px;
+    margin-right: 20px;
+}
+
+.Texts{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
