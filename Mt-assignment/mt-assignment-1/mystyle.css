@@ -1,0 +1,150 @@
+body,html {
+  margin:0;
+  padding:0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top:-60px;
+    padding-left:120px;;
+    overflow: hidden;
+    background-color: yellow;
+  }
+  
+  li {
+    float: left;
+    
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:white;
+  }
+
+  .icon{
+
+float:right;
+padding-right: 50px;
+
+
+  }
+
+
+  .steer
+  {
+padding-left:50px;
+padding-top:20px;
+padding-bottom:20px;
+  }
+
+  .drive
+  {
+      margin-left: 130px;
+      margin-top : -80px;
+      font-weight: bold;
+      font-size: 30px;
+  }
+  .drivepro{
+    margin-left: 130px;
+    margin-top : -30px;
+
+  }
+
+  .loc{
+
+    float: right;
+    margin-top:-80px;
+    padding-right:100px;
+    display: inline-block;
+  }
+
+  .nv2 {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 150px;
+    overflow: hidden;
+    background-color:#dcdcdc;
+  }
+  
+  .nvl2 {
+    float: left;
+    
+  }
+  
+  .nvl2 .nv2 {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .nvl2 a:hover {
+    background-color:yellow;
+  }
+
+
+.firstbox{
+
+  border: solid 2px yellow;
+  padding:30px ;
+  padding-left: 50px;
+  float:left;
+margin-left:90px;
+
+
+}
+.secondbox{
+
+  border: solid 2px yellow;
+  padding:30px;
+  padding-left: 50px;
+  float:left;
+  margin-left:80px;
+
+
+}
+.thirdbox{
+
+  border: solid 2px yellow;
+  padding:30px;
+  padding-left: 50px;
+  float:left;
+  margin-left:80px;
+
+
+}
+
+.horn
+{
+margin-left:-80px;
+margin-bottom:-150px;
+
+
+}
+
+.nv2  input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  background-color: white;
+  font-size: 17px;
+}
+
+.search{
+
+float: right;
+margin-right:-210px;
+margin-top:13px;
+
+
+}
