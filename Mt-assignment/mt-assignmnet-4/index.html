@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Weather web app</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="stylesheet" type="text/css" href="index.css"> 
+  </head>
+
+  <body onload=search()>
+    <h1 class="heading1">Know The Weather</h1>
+        <h1 class="heading">What Location are you looking for?</h1>
+        
+
+       
+        <div class="centerbox">
+            <div class="row">
+             
+                    <input type="text"  placeholder="Enter City Name" id="city" value="Nagpur" >
+            
+                    <button class="button"  onclick=search()>Search</button>
+             
+                
+            </div>
+            
+            <div class="center a" >
+                
+                <div id="location" class="styleout"></div>
+                <div id="temp" class="styleout"></div>
+                <div id="image" class="styleout"> </div>
+                <div id="des" class="styleout"></div>
+            
+            
+        </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="./index.js"></script>
+</html>
